@@ -2,6 +2,7 @@
 
 var SwaggerExpress = require('swagger-express-mw');
 var app = require('express')();
+console.log('you are win');
 // export setup Promis for testing
 module.exports = new Promise(function (resolve, reject) {
 
